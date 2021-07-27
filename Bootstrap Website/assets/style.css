@@ -1,0 +1,124 @@
+#top-header-info ul li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+}
+
+
+#top-header-info ul li a{
+  text-decoration: none;
+  color: lightgray;
+}
+
+#top-header-info ul li a:hover{
+  color: white;
+}
+
+
+#top-header-info ul li a i{
+  margin-right: 7px;
+  color: green;
+}
+
+#about-list li{
+  list-style: none;
+}
+  
+#about-list li i{
+  color: lightgreen;
+}
+
+#breadcrumbs{
+  background-color: #1bbd36;
+}
+
+#breadcrumbs ol li{
+  color: white;
+}
+
+#breadcrumbs ol li a{
+  color: white;
+  text-decoration: none;
+}
+
+#breadcrumbs ol li + li::before {
+  color: white;
+  content: "/";
+}
+
+#team-section{
+  background-color: #f0f0f0;
+}
+
+#watch-section{
+  background-color: #f0f0f0;
+}
+
+#card-stars ul{
+margin-left: -30px;
+}
+
+
+#card-stars ul li {
+  list-style: none;
+  display: inline-block;
+  color: #ffc107;
+}
+
+#card-icon{
+  font-size: 50px;
+  margin-top: 20px;
+  color: #1bbd36;
+}
+
+#card-text{
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+
+#card-description{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 5px;
+  color: slategray;
+  font-weight: lighter;
+}
+
+#border{
+  border: 1px solid green;
+}
+
+
+#section-dark{
+ background-color:#f0f0f0; 
+}
+
+#footer-links a{
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: lightgrey !important;
+}
+
+#footer-links p a:hover{
+  color: white !important;
+  cursor: pointer;
+}
+
+#footer-links p i{
+  color: green;
+  margin-right: 7px;
+}
+
+#footer-link-copyright a{
+  color: green;
+  margin-left: 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#footer-link-copyright a:hover{
+  color: limegreen;
+  text-decoration: none;
+}
